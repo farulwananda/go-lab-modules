@@ -1,5 +1,5 @@
 package go_lab_modules
 
-func HelloWorld() string {
-	return "Hello Cruel World!"
+func HelloWorld(name string) string {
+	return "Hello " + name
 }
